@@ -1,0 +1,66 @@
+/* Add this to your existing CSS */
+
+/* Link to Bootstrap CDN */
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css');
+
+body {
+    /* Gradient background */
+    background: linear-gradient(45deg, #2c3e50, #1a1a1a);
+    color: #ffffff; /* White text for contrast */
+    font-family: 'Arial', sans-serif; /* Replace with your preferred font */
+}
+
+header {
+    /* Header styling, e.g., padding, text color, etc. */
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    /* Styling for the main section, e.g., padding, etc. */
+    padding: 20px;
+}
+
+.profile {
+    /* Styling for the profile container, e.g., margin, etc. */
+    margin: 20px 0;
+}
+
+.profile img {
+    /* Styling for the profile image, e.g., width, border-radius, etc. */
+    width: 100px;
+    border-radius: 50%; /* Make the profile image round */
+    margin-bottom: 10px; /* Spacing between image and text */
+}
+
+.profile h2 {
+    /* Styling for the name, e.g., font size, color, etc. */
+    font-size: 1.5em;
+    color: #ffcc00; /* Yellow color or your preferred color */
+}
+
+.profile ul {
+    /* Styling for the social media list, e.g., list-style, padding, etc. */
+    list-style-type: none; /* Remove list bullet points */
+    padding: 0;
+}
+
+.profile li {
+    /* Styling for each list item, e.g., margin, etc. */
+    margin-bottom: 10px;
+}
+
+/* Styling for social media links */
+.profile a {
+    color: #ffffff; /* White link text color */
+    text-decoration: none; /* Remove underline from links */
+    margin-left: 10px; /* Spacing between icon and text */
+}
+
+/* Styling for the footer, e.g., padding, text color, etc. */
+footer {
+    padding: 10px;
+    text-align: center;
+    background-color: #1a1a1a; /* Footer background color */
+    color: #ffffff; /* White text color */
+}
