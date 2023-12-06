@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link CDN untuk Feather Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.css">
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap">
+
+    
+    <style>body {
+    /* Gradient background with a blue tone */
+    background: linear-gradient(45deg, #3498db, #1a1a1a);
+    color: #ffffff; /* White text for contrast */
+    font-family: 'Inter', sans-serif; /* Replace with your preferred font */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Minimum height of the viewport */
+}
+}
+/* Tambahkan ini pada file styles.css */
+
+.profile {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-around; /* Menyusun kartu secara horizontal dengan jarak yang merata */
+}
+
+.profile-card {
+    background-color: #fffff0; /* Ganti dengan warna pilihan Anda */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s;
+width: 600px; /* Sesuaikan lebar kartu sesuai keinginan Anda */
+height: 300px;
+    margin-bottom: 10px; /* Tambahkan jarak di bawah kartu */
+    align-items: center; /* Mengatur kartu ke tengah secara horizontal */
+    justify-content: center; /* Mengatur kartu ke tengah secara vertikal */
+}
+
+.profile img {
+    width: 30%; /* Ubah persentasenya sesuai kebutuhan Anda */
+    border-radius: 50%; /* Menjadikan gambar lingkaran */
+}
+
+
+}
+
+.profile-card:hover {
+    transform: scale(1.05);
+}
+
+.profile-card h2 {
+    padding: 20px;
+    margin: 0;
+    color: #333333;
+}
+
+.profile ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.profile li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+.profile i {
+    margin-right: 15px; /* Tambahkan jarak di sebelah kanan ikon */
+}
+
+
+.profile a {
+    color: #333333;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.profile a:hover {
+    text-decoration: underline;
+}
+
+header, main, footer {
+    width: 100%;
+    max-width: 600px; /* Adjust the max-width as needed */
+    margin: 0 auto; /* Center align these sections */
+}
+
+    </style>
+    <title>My Linktree</title>
+</head>
+<body>
+    <header>
+        <h1>My Linktree</h1>
+    </header>
+    <main>
+    <div class="profile">
+        <!-- Profil 1 -->
+        <div class="profile-card">
+            <img src="img/profile1.jpg" alt="Profile 1">
+            <h2>SAKTI</h2>
+            <ul>
+                <i data-feather="instagram"></i><a href="https://instagram.com/tegarskti22_?igshid=OGQ5ZDc2ODk2ZA==" target="_blank">Instagram</a>
+                <a href="https://www.tiktok.com/@tgrsktii_2?_t=8hwCv2a0v7o&_r=1" target="_blank">Tiktok</a>
+                <i data-feather="facebook"></i><a href="https://www.facebook.com/aryadani.dani.96?mibextid=zLoPMf" target="_blank">Facebook</a>
+            </ul>
+        </div>
+        <!-- Profil 2 -->
+        <!-- Tambahkan div lain sesuai dengan jumlah profil yang ingin ditampilkan -->
+    </div>
+</main>
+
+    <footer>
+        <p>&copy; 2023 My Linktree. All rights reserved.</p>
+    </footer>
+    <!-- Script untuk inisialisasi Feather Icons -->
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script>
+        feather.replace();
+    </script>
+</body>
+</html>
+
+
